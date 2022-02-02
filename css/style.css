@@ -3,7 +3,44 @@
 body {
   margin: 0;
   background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
 }
+
+.container {
+  position: relative;
+  height: auto;
+}
+
+.outer {
+  position: absolute;
+  text-align: center;
+  height: 500px;
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.qr-code {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding: 0 10px;
+}
+
+p {
+  font-size: 0.9375rem;
+  color: hsl(220, 15%, 55%);
+  padding: 0 25px;
+}
+
+
 
 
 
